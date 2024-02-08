@@ -1,0 +1,9 @@
+use hash table to find if there are any duplicates
+the countMap[num] accesses the value associated with the key 'num', which we access from the vector
+
+if it is there, it returns a reference to the corresponding value
+
+just to note,if key/value is set to type int, the value is initialized to 0 
+
+so with the line duplicated[num]++, were taking the value and incrementing it by 1
+as soon as we encounter a key(generated through num) with an assosciated pair that is more that 1, we have a duplicate!
